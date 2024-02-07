@@ -40,7 +40,7 @@ class LinkedList:
             tasks.append(current.data)
             current = current.next
 
-        return tasks
+        return tasks[::-1]
 
 # Create a Streamlit app
 def main():
